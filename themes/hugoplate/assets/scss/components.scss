@@ -26,15 +26,22 @@ main {
 
 // social icons
 .social-icons {
-  @apply space-x-4;
+  @apply flex space-x-1 justify-center;
   li {
     @apply inline-block;
     a {
-      @apply bg-primary dark:bg-darkmode-primary dark:text-dark flex h-9 w-9 items-center justify-center rounded text-center leading-9 text-white;
+      @apply bg-primary dark:bg-darkmode-primary dark:text-dark flex h-8 w-8 items-center justify-center rounded text-center leading-9 text-white;
       svg {
-        @apply h-5 w-5;
+        @apply h-4 w-4;
       }
     }
+  }
+}
+//contribute link
+@layer utilities {
+  .underline-hover:hover {
+    text-decoration: underline;
+    color:primary;
   }
 }
 

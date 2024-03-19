@@ -2,50 +2,48 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[main]]
-name = "About"
+name = "Getting Started"
 url = "about/"
 weight = 2
 
 [[main]]
-name = "Elements"
+name = "Courses"
 url = "elements/"
 weight = 3
 
 [[main]]
+name = "Blog"
+url = "elements/"
 weight = 4
-name = "Pages"
-hasChildren = true
 
 [[main]]
-parent = "Pages"
-name = "Blog"
+name = "Newsletter"
+url = "https://newsletter.piptrends.com"
+weight = 5
+
+[[main]]
+name = "pip Trends Home"
+url = "https://piptrends.com"
+weight = 6
+
+[[main]]
+name = "More"
+weight = 7
+
+[[main]]
+parent = "More"
+name = "FAQs"
 url = "blog/"
 
 [[main]]
-parent = "Pages"
-name = "Contact"
+parent = "More"
+name = "Cheatsheets"
 url = "contact/"
 
 [[main]]
-parent = "Pages"
+parent = "More"
 name = "Authors"
 url = "authors/"
-
-[[main]]
-parent = "Pages"
-name = "Categories"
-url = "categories/"
-
-[[main]]
-parent = "Pages"
-name = "404 Page"
-url = "404/"
-
 
 # footer menu
 [[footer]]
