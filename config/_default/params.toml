@@ -40,7 +40,7 @@ link = "contact"
 [search]
 enable = true
 primary_color = "#121212"
-include_sections = ["blog"]
+include_sections = ["blog", "getting-started"]
 show_image = true
 show_description = true
 show_tags = true
@@ -50,9 +50,9 @@ show_categories = true
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo
 [metadata]
-keywords = ["Boilerplate", "Hugo"]
-description = "Hugo & Tailwindcss Starter"
-author = "zeon.studio"
+keywords = ["pip Trends", "python", "learn", "pip", "trends"]
+description = "Become a Python pro! learn-pip-trends is a comprehensive Python Learning Center for mastering Python and staying ahead of the curve with the latest package trends. Explore tutorials, guides, and insights from experts to level up your Python skills."
+author = "Ashok Tankala"
 image = "images/og-image.png"
 
 
