@@ -7,5 +7,5 @@ banner:
   button:
     enable: true
     label: "Explore Now"
-    link: "/getting-started.html"
+    link: "/getting-started"
 ---
