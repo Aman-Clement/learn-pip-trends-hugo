@@ -8,12 +8,12 @@ weight = 2
 
 [[main]]
 name = "Courses"
-url = "elements/"
+url = "courses/"
 weight = 3
 
 [[main]]
 name = "Blog"
-url = "elements/"
+url = "blog/"
 weight = 4
 
 [[main]]
@@ -33,17 +33,17 @@ weight = 7
 [[main]]
 parent = "More"
 name = "FAQs"
-url = "blog/"
+url = "faqs/"
 
 [[main]]
 parent = "More"
 name = "Cheatsheets"
-url = "contact/"
+url = "cheatsheets/"
 
 [[main]]
 parent = "More"
-name = "Authors"
-url = "authors/"
+name = "Related Articles"
+url = "related-articles/"
 
 # footer menu
 [[footer]]

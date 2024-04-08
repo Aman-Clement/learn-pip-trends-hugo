@@ -1,1 +1,30 @@
 // Add your own custom styles here
+
+details {
+    background-color: #fff; 
+    border: 1.5px solid #76C2AF;
+    padding: 10px;
+    margin-bottom: 10px; 
+    border-radius: 5px; 
+  }
+  
+  summary {
+    font-weight: bold; 
+    padding: 10px;
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  summary:hover {
+    background-color: #8bdbc7; 
+  }
+  
+  summary::after {
+    content: ' +'; 
+    float: right; 
+  }
+  
+  details[open] summary::after {
+    content: ' -';
+  }
+  
