@@ -1,9 +1,12 @@
 ---
 title: Highcharts-core
 description: A comprehensive guide on how to work with Highchats-core, a Python library for creating dynamic charts.
-categories: [highcharts-core, charts, python, pip]
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+tags: [highcharts-core, charts]
+categories: [Tutorial, Getting Started, Data Visualization, Python Package]
+image: "/images/getting-started/highcharts-core.png"
+date: 2023-12-01
+author:
+  title: Lavanya Mylapalli
 ---
 
 ## Introduction 

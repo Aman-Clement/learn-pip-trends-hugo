@@ -1,9 +1,13 @@
 ---
 title: Python-docx
 description: A comprehensive guide on how to work with Python-docx, a Python library for creating and updating Microsoft Word files.
-categories: [python-docx, python library, Microsoft Word, documents, tutorial]
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+tags: [Python-docx, Microsoft Word]
+categories: [Tutorial, Getting Started, Documents, Python Package]
+image: "/images/getting-started/python-docx.png"
+date: 2023-08-02
+author:
+  title: Ayush Jain
+  twitter: AyushGanna
 ---
 
 ## Introduction

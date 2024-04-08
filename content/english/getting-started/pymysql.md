@@ -1,9 +1,13 @@
 ---
 title: PyMySQL
 description: A comprehensive guide on how to work with PyMySQL, a Python library to connect to the MySQL databases.
-categories: [PyMySQL, python library, MySQL, SQL, tutorial]
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+tags: [PyMySQL, SQL, MySQL]
+categories: [Tutorial, Getting Started, Database Connection, Python Package]
+image: "/images/getting-started/pymysql.png"
+date: 2024-01-13
+author:
+  title: Ayush Jain
+  twitter: AyushGanna
 ---
 
 ## Introduction

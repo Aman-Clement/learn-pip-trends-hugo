@@ -1,9 +1,13 @@
 ---
 title: Installing Python on Windows
 description: A step-by-step guide on installing Python on Windows for beginners.
-categories: [python, windows, installation, beginners, programming]
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+tags: [windows, python]
+categories: [Beginners, Installation, Tutorial, Windows]
+image: "/images/getting-started/python-installation-windows.png"
+date: 2023-08-01
+author:
+  title: Ayush Jain
+  twitter: AyushGanna
 ---
 
 #### Prerequisites

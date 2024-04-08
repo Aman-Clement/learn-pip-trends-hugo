@@ -3,7 +3,7 @@
 # main menu
 [[main]]
 name = "Getting Started"
-url = "about/"
+url = "getting-started/"
 weight = 2
 
 [[main]]

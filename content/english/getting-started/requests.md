@@ -1,9 +1,13 @@
 ---
 title: requests
 description: A beginner's guide to Python's requests library, a powerful and user friendly tool for making HTTP requests.
-categories: [python, pip, piptrends, requests, HTTP]
-date: 2022-04-04T05:00:00Z
-image: "/images/image-placeholder.png"
+tags: [requests, HTTP]
+categories: [Tutorial, Getting Started, Python Package, Web Scraping]
+image: "/images/getting-started/requests.png"
+date: 2024-01-08
+author:
+  title: Aman Clement
+  twitter: aman_aranha
 ---
 
 ## What is Python Requests?
