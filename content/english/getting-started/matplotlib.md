@@ -44,9 +44,9 @@ Some commonly used chart types are -
 2. Bar Chart - A bar chart represents data with bars of different lengths, helpful for comparing values between categories.
 3. Pie Chart - A pie chart displays data in a circular graph, divided into slices to show how parts relate to the whole.
 <div style="display: flex; justify-content: center;">
-    <img src="../assets/images/articles/matplotlib/Line-Chart.png" alt="Line Chart" style="width: 30%; margin: 10px">
-    <img src="../assets/images/articles/matplotlib/Bar-Chart.png" alt="Bar Chart" style="width: 30%; margin: 10px">
-    <img src="../assets/images/articles/matplotlib/Pie-Chart.png" alt="Pie Chart" style="width: 30%; margin: 10px">
+    <img src="/images/getting-started/matplotlib/Line-Chart.png" alt="Line Chart" style="width: 30%; margin: 10px">
+    <img src="/images/getting-started/matplotlib/Bar-Chart.png" alt="Bar Chart" style="width: 30%; margin: 10px">
+    <img src="/images/getting-started/matplotlib/Pie-Chart.png" alt="Pie Chart" style="width: 30%; margin: 10px">
 </div>
 
 ## Line Chart
