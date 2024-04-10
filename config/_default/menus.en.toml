@@ -32,18 +32,8 @@ weight = 7
 
 [[main]]
 parent = "More"
-name = "FAQs"
-url = "faqs/"
-
-[[main]]
-parent = "More"
 name = "Cheatsheets"
 url = "cheatsheets/"
-
-[[main]]
-parent = "More"
-name = "Related Articles"
-url = "related-articles/"
 
 # footer menu
 [[footer]]

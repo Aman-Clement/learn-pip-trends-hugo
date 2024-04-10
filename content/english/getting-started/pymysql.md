@@ -160,7 +160,7 @@ Here's an example Python script demonstrating these methods:
 
     Output:
 
-    ```
+    ```bash
     Fetch one row:
     (1, 'Slovakia', 'Bratislava', 432000)
     (2, 'Hungary', 'Budapest', 1759000)
@@ -186,7 +186,7 @@ Here's an example Python script demonstrating these methods:
     ```
 
     Output:
-    ```
+    ```bash
     Fetch all rows:
     (1, 'Slovakia', 'Bratislava', 432000)
     (2, 'Hungary', 'Budapest', 1759000)
@@ -213,7 +213,7 @@ Here's an example Python script demonstrating these methods:
     ```
 
     Output:
-    ```
+    ```bash
     Fetch many rows:
     (1, 'Slovakia', 'Bratislava', 432000)
     (2, 'Hungary', 'Budapest', 1759000)
@@ -239,6 +239,63 @@ PyMySQL can be used for a variety of use cases and projects, making it a versati
 - **E-commerce Website Backend:** Develop the backend for an e-commerce website, handling product listings, user accounts, shopping carts, and order processing.
 
 - **Booking and Reservation System:** An application for booking appointments or making reservations, such as for hotels or restaurants.
+
+## FAQs
+
+Here are some FAQ's about PyMySQL
+<details>
+<summary>What is PyMySQL</summary>
+PyMySQL is a library in Python that enables you to interact with MySQL databases. It allows you to connect to a MySQL database, execute SQL queries, and manage data.
+</details>
+
+<details>
+<summary>How is PyMySQL different from MySQLdb?</summary>
+PyMySQL is written entirely in Python and is a pure-Python MySQL client, whereas MySQLdb is a C module that needs to be compiled against MySQL. PyMySQL is often used as a MySQLdb replacement and is compatible with Python 3.
+</details>
+
+<details>
+<summary>How do you install PyMySQL?</summary>
+You can install PyMySQL using pip: <code>pip install pymysql</code>. This is the standard method for installing Python packages.
+</details>
+
+<details>
+<summary>Is PyMySQL compatible with MySQL and MariaDB?</summary>
+Yes, PyMySQL works with both MySQL and MariaDB databases. It's designed to be a drop-in replacement for MySQLdb, which is compatible with these databases.
+</details>
+
+<details>
+<summary>How do you handle transactions in PyMySQL?</summary>
+Transactions in PyMySQL are managed through the connection object. After executing your queries, you use <code>connection.commit()</code> to commit the transaction or <code>connection.rollback()</code> to roll back the transaction.
+</details>
+
+<details>
+<summary>What is the purpose of the cursor in PyMySQL?
+</summary>
+A cursor is a Python object that allows you to execute MySQL queries and retrieve results. It provides methods like <code>execute()</code>, <code>fetchone()</code>, <code>fetchall()</code>, and <code>fetchmany()</code> for these purposes.
+</details>
+
+<details>
+<summary>How do you manage database connections in PyMySQL?
+?</summary>
+Database connections should be properly opened and closed to manage resources efficiently. Use pymysql.connect() to open a connection and connection.close() to close it. It’s a good practice to use Python's with statement or try-except-finally blocks to ensure connections are closed even when an error occurs.
+</details>
+
+<details>
+<summary>Can you use PyMySQL for complex queries and stored procedures?</summary>
+Yes, PyMySQL supports executing complex SQL queries, including joins, subqueries, and stored procedures. You can execute any SQL command that MySQL supports.</details>
+
+## Related Articles
+
+Here are some articles about **PyMySQL** that you may find helpful
+
+<ul>
+  <li> https://piptrends.com/package/pymysql </li>
+  <li> https://pymysql.readthedocs.io/en/latest/ </li>
+  <li> https://pypi.org/project/pymysql/ </li>
+  <li> https://towardsdatascience.com/pymysql-connecting-python-and-sql-for-data-science-91e7582d21d7 </li>
+  <li> https://medium.com/swlh/python-mysql-baby-steps-with-pymysql-89d62191f312 </li>
+  <li> https://www.geeksforgeeks.org/connect-to-mysql-using-pymysql-in-python/ </li>
+  <li> https://www.syncfusion.com/blogs/post/sql-a-complete-guide-for-beginners.aspx </li>
 
 In this article, we have explored the PyMySQL library, which empowers users to interact with MySQL databases effortlessly. With the knowledge you've gained from this article, you're well-equipped to start integrating MySQL databases into your Python applications. From setting up connections and executing queries to fetching results and managing transactions, PyMySQL covers all the essentials you need for database operations. Plus, with the project ideas provided, you have a great starting point to explore and apply these skills in real-world scenarios.
 
